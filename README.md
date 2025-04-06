@@ -19,12 +19,15 @@ Accedé a la app online en:
 
 ## 🎯 Funcionalidades
 
-- 🔍 Buscar personajes por nombre
+- 🔍 Buscar personajes por nombre o por filtros (especie, género, estado)
 - 🧑 Ver información (imagen, especie, origen)
-- ⭐ Agregar y quitar personajes favoritos
+- ⭐ Agregar y quitar personajes favoritos (sin duplicados)
+- 🗑 Botón para eliminar todos los favoritos de una vez
 - 💾 Persistencia con localStorage
 - 🌓 Cambio entre modo claro y oscuro
-- 🚀 Diseño moderno con **TailwindCSS 4** + Vite plugin
+- 🎨 Diseño moderno, responsivo y accesible con TailwindCSS 4
+- ✅ Estilo visual personalizado (colores, tipografía Inter)
+- ⚠️ Mensajes amigables con React Toastify
 
 ---
 
@@ -34,6 +37,7 @@ Accedé a la app online en:
 - [Vite](https://vitejs.dev/)
 - [TailwindCSS v4](https://tailwindcss.com/docs/installation) con `@tailwindcss/vite`
 - [React Toastify](https://fkhadra.github.io/react-toastify/) para notificaciones
+- [Axios](https://axios-http.com/) para llamadas a la API
 - Rick and Morty API pública
 
 ---

@@ -1,11 +1,20 @@
 import React from 'react'
 
-export default function FavoritesList({ favorites, onRemove }) {
+export default function FavoritesList({ favorites, onRemove, onClear }) {
   if (favorites.length === 0) return null
 
   return (
     <section className="mt-14">
-      <h2 className="text-2xl font-bold text-green-400 mb-6 text-center">⭐ Personajes Favoritos</h2>
+      <div className="flex justify-between items-center mb-6">
+        <h2 className="text-2xl font-bold text-green-400">⭐ Personajes Favoritos</h2>
+        <button
+          onClick={onClear}
+          className="text-sm bg-red-600 hover:bg-red-700 text-white px-3 py-2 rounded-md transition"
+        >
+          🗑 Eliminar todos
+        </button>
+      </div>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
         {favorites.map((char) => (
           <div
