@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Aplica fondo y color de texto en cada modo */
+@layer base {
+  html {
+    background-color: #f4f4f5;
+    color: #1e293b;
+    font-family: 'Inter', sans-serif;
+  }
+
+  html.dark {
+    background-color: #0f172a;
+    color: #f1f5f9;
+  }
+}
