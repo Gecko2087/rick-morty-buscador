@@ -46,7 +46,7 @@ Accedé a la app online en:
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/rick-morty-buscador.git
+git clone https://github.com/Gecko2087/rick-morty-buscador.git
 cd rick-morty-buscador
 
 # Instalar dependencias
